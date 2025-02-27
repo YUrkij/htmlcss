@@ -1,0 +1,29 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+.task-container-one{
+    width: 65vw;
+    padding: 40px;
+    margin: 50px auto;
+}
+
+.task-container-one h1{
+    color: #483D8B;
+    text-align: center;
+}
+
+.task-container-one p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.task-container-one .tipe1{
+    color: #748798;
+}
+
+.task-container-one i{
+    font-size: 12px;
+}
