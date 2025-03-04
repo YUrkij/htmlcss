@@ -1,0 +1,23 @@
+.task-container-one{
+    width: 65vw;
+    padding: 40px;
+    margin: 50px auto;
+}
+
+
+.task-container-one ol.ol_1{
+    list-style-type: upper-roman;
+}
+
+.task-container-one ol.ol_1 ol.ol_2{
+    list-style-type:decimal;
+}
+
+
+.task-container-one ol.ol_1 ol.ol_2 ol.ol_3{
+    list-style-type:lower-alpha;
+}
+
+.task-container-one span{
+    color: darkslateblue;
+}
