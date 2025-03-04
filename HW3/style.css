@@ -1,0 +1,28 @@
+.button_box{
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+  
+.button_box img{
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.button_box p{
+    margin-left: 42px;
+}
+
+.button_box:hover{
+    cursor: crosshair;
+    background-color: rgb(199, 199, 199);
+}
+
+.menu_box{
+    display: flex;
+    flex-direction: column;
+}
