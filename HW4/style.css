@@ -1,0 +1,63 @@
+.loaderBox {
+    width: 40vw;
+    margin: 30px auto;
+    box-shadow: 0 0 10px 5px black;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.loaderImg{
+    width: 30vw;
+}
+
+.loaderImg img{
+    width: 40vw;
+    height: 100% auto;
+}
+
+.loadingButton{
+    width: 40vw;
+    height: 45px;
+}
+
+.loadingButton button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: royalblue;
+    color: azure;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 5px 20px;
+}
+
+.loading {
+    border: 1px solid grey;
+    display: flex;
+}
+
+.loadingLeft{
+    width: 40%;
+    padding: 5px 10px;
+    background-color: rgb(31, 72, 133);
+    text-transform: uppercase;
+}
+
+.loadingRight {
+    width: 60%;
+    align-items: center;
+    justify-items: end;
+    padding: 5px 10px;
+}
+
+.loadingBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loaderBox h2{
+    margin-top: 5px;
+}

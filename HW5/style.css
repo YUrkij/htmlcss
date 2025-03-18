@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap :25px;
+    background: rgb(0, 61, 0);
+    padding: 75px 100px;
+    margin: 75px;
+    width :50vw;
+    height: auto;
+    color: aliceblue;
+    flex-direction:column;
+}
+
+p{
+    margin: 0;
+};
+
+.container .path{
+    font-size: small;
+}
+
+.container .main_text{
+    font-size: 52px;
+    
+}
+
+.container .user_info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: smaller;
+}
+
+.category, .path{
+    color: gray;
+}
+
+
