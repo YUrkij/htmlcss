@@ -1,9 +1,3 @@
-main();
-function main(){
-    alert(table())
-
-
-};
 //---1---//
 function isUnique(arr){
     for (let i = 0; i < arr.length - 1; i++){
