@@ -1,0 +1,15 @@
+.blocks-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    display: none;
+}

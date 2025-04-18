@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="color" id="colorPicker" value="#ff0000">
+    <div class="blocks-container">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    <script src="script1.js"></script>
+
+    <input type="password" id="passwordInput" placeholder="Введите пароль">
+    <button onclick="validatePassword()">Проверить пароль</button>
+    <div id="lowErr" class="error">Пароль слишком короткий</div>
+    <div id="numErr" class="error">В пароле нет цифр</div>
+    <div id="simbErr" class="error">В пароле нет специмльных символов</div>
+    <div id="letErr" class="error">В пароле нет латинских букв</div>
+    <script src="script2.js"></script>
+
+    
+</body>
+</html>
