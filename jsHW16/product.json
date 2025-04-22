@@ -1,0 +1,28 @@
+{
+    "products": [
+      {
+        "name": "Смартфон",
+        "preview": "images/phone.jpg",
+        "price": 29999,
+        "category": "Электроника"
+      },
+      {
+        "name": "Ноутбук",
+        "preview": "images/laptop.jpg",
+        "price": 59999,
+        "category": "Электроника"
+      },
+      {
+        "name": "Книга по программированию",
+        "preview": "images/book.jpg",
+        "price": 1499,
+        "category": "Книги"
+      },
+      {
+        "name": "Футболка",
+        "preview": "images/tshirt.jpg",
+        "price": 1999,
+        "category": "Одежда"
+      }
+    ]
+  }

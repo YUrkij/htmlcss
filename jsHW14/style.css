@@ -1,0 +1,58 @@
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.article {
+    margin-bottom: 40px;
+}
+.comments {
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+.comment {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+.comment-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comment-author {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.comment-date {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+form {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: greenyellow;
+}
