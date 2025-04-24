@@ -8,13 +8,13 @@
       },
       {
         "name": "Ноутбук",
-        "preview": "images/laptop.jpg",
+        "preview": "images/laptop.png",
         "price": 59999,
         "category": "Электроника"
       },
       {
         "name": "Книга по программированию",
-        "preview": "images/book.jpg",
+        "preview": "images/book.png",
         "price": 1499,
         "category": "Книги"
       },

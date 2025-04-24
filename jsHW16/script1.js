@@ -18,7 +18,7 @@ class Catalog {
 
     async loadProducts() {
         try {
-            const response = await fetch('products.json');
+            const response = await fetch('product.json');
             const data = await response.json();
             this.products = data.products;
         } catch (error) {
@@ -27,7 +27,6 @@ class Catalog {
     }
 
     initEvents() {
-        // Обработчики категорий
         this.categoryButtons.forEach(button => {
             button.addEventListener('click', () => {
                 this.categoryButtons.forEach(btn => btn.classList.remove('active'));
@@ -37,7 +36,6 @@ class Catalog {
             });
         });
 
-        // Обработчик поиска
         this.searchInput.addEventListener('input', (e) => {
             this.searchTerm = e.target.value.toLowerCase();
             this.render();
@@ -69,7 +67,6 @@ class Catalog {
     }
 }
 
-// Инициализация каталога при загрузке страницы
 document.addEventListener('DOMContentLoaded', () => {
     new Catalog();
 });
